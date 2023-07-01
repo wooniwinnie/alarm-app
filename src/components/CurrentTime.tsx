@@ -1,6 +1,5 @@
-import { time } from 'console';
 import React, { useEffect, useState } from 'react';
-import SetTime from './SetTime';
+import SetAlarm from '../components/SetAlarm';
 
 type Props = {};
 
@@ -30,9 +29,6 @@ const CurrentTime = () => {
                 <span className=' tracking-widest text-4xl'>
                     {formatTIme(time)}
                 </span>
-            </div>
-            <div>
-                <SetTime />
             </div>
         </>
     );
